@@ -1,10 +1,10 @@
-package model;
+package model.method;
 
-public class Parameter {
+import model.ILanguageConvertable;
 
-    private String type;
-
+public class Parameter implements ILanguageConvertable {
     private String name;
+    private String type;
 
     public Parameter() {
     }
@@ -31,10 +31,7 @@ public class Parameter {
     }
 
     @Override
-    public String toString() {
-        return "Parameter{" +
-                "type='" + type + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+    public String ConvertToC() {
+        return null;
     }
 }
