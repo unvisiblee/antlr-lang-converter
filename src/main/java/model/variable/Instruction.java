@@ -1,4 +1,4 @@
-package model.method;
+package model.variable;
 
 import model.ILanguageConvertable;
 

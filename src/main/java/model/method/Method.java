@@ -2,6 +2,7 @@ package model.method;
 
 import model.CustomClassMember;
 import model.CustomInterfaceMember;
+import model.variable.Instruction;
 
 import java.util.List;
 

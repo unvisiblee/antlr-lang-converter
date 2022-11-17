@@ -1,7 +1,5 @@
 package model.variable;
 
-import model.method.Instruction;
-
 public class Variable implements Instruction {
     private String name;
     private String type;

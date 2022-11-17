@@ -1,6 +1,6 @@
 package model.expression;
 
-import model.method.Instruction;
+import model.variable.Instruction;
 
 import java.util.Collections;
 import java.util.List;

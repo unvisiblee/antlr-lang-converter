@@ -2,10 +2,10 @@ package model.method;
 
 import model.variable.VariableValue;
 
-public class ParameterWithValue extends Parameter{
+public class ParameterWithValue extends Parameter {
     private VariableValue value;
 
-    public ParameterWithValue(){
+    public ParameterWithValue() {
 
     }
 
